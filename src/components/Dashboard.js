@@ -11,7 +11,7 @@ export default function Dashboard() {
     const [term,setTerm]=useState("election");
     const [articles,setArticles]=useState([])
     const [loading,setLoading]=useState(true)
-    const articles_url=`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${term}&api-key=${process.env.REACT_APP_ARTICLES_API_KEY}`;
+    const articles_url=`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${term}&api-key=pEC5XetznThEWs5nHGVCL28d7M8iMUC8`;
 
     const [text,setText]=useState("")
 
