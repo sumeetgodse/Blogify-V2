@@ -1,4 +1,4 @@
-import React ,{ useEffect, useState } from 'react'
+import React from 'react'
 import logo from "./blogger.png"
 import { useAuth } from "../contexts/AuthContext"
 import "../styles/dashboard.css"

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {Card, Form ,Button , Alert} from "react-bootstrap"
-import { Link , useHistory } from 'react-router-dom'
+import {  useHistory } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import "../styles/dashboard.css"
 
@@ -73,7 +72,7 @@ export default function Dashboard() {
             loading ? <h1 className="loading">Loading...</h1> :
             <section className="content">
             {articles.map((article)=>{
-                const {abstract,headline:{main},byline:{original},lead_paragraph,news_desk,section_name,web_url,_id,word_count}=article
+                const {abstract,headline:{main},byline:{original},lead_paragraph,web_url,_id}=article
                 return(
                     <article key="_id" className="article">
                         <h2 className="title">{main}</h2>
