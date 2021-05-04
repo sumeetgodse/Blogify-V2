@@ -1,9 +1,0 @@
-{
-    "routes": [
-      { "src": "/", "dest": "/login" },
-      { "src": "/update-profile", "dest": "/" },
-      { "src": "/signup", "dest": "/" },
-      { "src": "/login", "dest": "/" },
-      { "src": "/forgot-password", "dest": "/" }
-    ]
-  }
