@@ -1,0 +1,131 @@
+
+.search{
+    width:500px;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.showcase{
+    background:url('pexels.jpg') no-repeat center/cover;
+    height: 300px;
+    color: honeydew;
+}
+
+.showcase .overlay{
+    background-color: rgba(0,0,0,0.4);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    padding:50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.article{
+    padding: 20px;
+    background-color: #eeeeee ;
+    margin-bottom: 20px;
+}
+
+.author{
+    font-size: 12px;
+}
+.resource{
+    font-size: 12px;
+}
+.para{
+    font-size: 15px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.abstract{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.loading{
+    text-align: center;
+    padding: 20px;
+}
+.logo{
+height: 40px;
+width: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .logo{
+        height: 30px;
+        width: 30px;
+        }
+    .userdata{
+        font-size: 12px;
+    }
+
+    .loading{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .para{
+        font-size: 12px;
+    }
+    .abstract{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .content{
+        padding:10px;
+    }
+
+    .overlay-text{
+        font-size: 25px;
+    }
+
+    .showcase{
+        height: 200px;
+        text-align: center; 
+        font-weight: lighter;
+    }
+    .showcase .overlay{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .search{
+        width:100%;
+        margin-right: 0px;
+        padding: 4px;
+    }
+
+    .btn{
+        margin:0 auto;
+    }
+
+    .article{
+        padding: 20px;
+        background-color: #eeeeee ;
+        margin-bottom: 15px;
+    }
+    .author{
+        font-size: 10px;
+    }
+}
